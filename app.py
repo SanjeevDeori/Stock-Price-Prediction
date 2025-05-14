@@ -9,7 +9,6 @@ from sklearn.model_selection import train_test_split
 import streamlit as st
 
 model_cache = {}
-#gg
 
 def fetch_data(symbol):
     stock = yf.Ticker(symbol)
